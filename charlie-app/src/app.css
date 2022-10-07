@@ -1,22 +1,30 @@
 
+html{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
 .formData{
     width: 400px;
-    height: 400px;
+    height: 350px;
     margin: 50px;
-    display: flex;
+    display: block;
     justify-content:start;
     align-items: center;
-    background-color:aquamarine;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:lightblue;
+    float: left;
 }
 
 form{
-    margin: 25px;
+    margin: 20px;
 }
 
 .titulo{
-    position:fixed;
-    top: 20px;
-    margin: 30px;
+    position: relative;
+    left: 50px;
 }
 
 button{
@@ -24,3 +32,21 @@ button{
     left:200px;
 }
 
+.resultados{
+    width: 400px;
+    height: 350px;
+    margin: 50px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:aquamarine;
+    float:right;
+}
+
+.respuestas{
+    margin: 20px;
+}
+
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-size:x-large;
+}
