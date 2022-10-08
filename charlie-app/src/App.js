@@ -27,27 +27,27 @@ function App() {
         "<No pudimos procesar el precio ya que no tenemos dato de el empleado"
       );
     }
-    if (!nombreEmpresa) {
+    else if (!nombreEmpresa) {
       alert(
         "No pudimos procesar el precio ya que no tenemos el dato de la empresa"
       );
     }
-    if (!nombreContacto) {
+    else if (!nombreContacto) {
       alert(
         "No pudimos procesar el precio ya que no tenemos el dato del cliente"
       );
     }
-    if (!nombreEmpresaCliente) {
+    else if (!nombreEmpresaCliente) {
       alert(
         "No pudimos procesar el precio ya que no tenemos el dato de la empresa del cliente"
       );
     }
-    if (!costo) {
+    else if (!costo) {
       alert(
         "No pudimos procesar el precio ya que no tenemos el dato del costo"
       );
     }
-    if (!margen) {
+    else if (!margen) {
       alert(
         "No pudimos procesar el precio ya que no tenemos el dato del margen"
       );
