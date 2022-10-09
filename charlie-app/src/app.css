@@ -7,7 +7,7 @@ html{
 
 .formData{
     width: 400px;
-    height: 350px;
+    height: 500px;
     margin: 50px;
     display: block;
     justify-content:start;
@@ -22,6 +22,24 @@ form{
     margin: 20px;
 }
 
+input{
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid rgb(19, 107, 136);;
+    outline:none;
+    padding: 5px;
+    color:black;
+    background-color:lightblue;
+}
+
+input:focus{
+    border-bottom: 1px solid rgb(2, 42, 56);;
+}
+
+input::placeholder{
+    color: rgb(19, 107, 136);
+}
+
 .titulo{
     position: relative;
     left: 50px;
@@ -31,10 +49,13 @@ button{
     position:relative;
     left:200px;
 }
+button:hover{
+    background-color:rgba(0, 255, 255, 0.671);
+}
 
 .resultados{
     width: 400px;
-    height: 350px;
+    height: 250px;
     margin: 50px 10px;
     border: 2px solid black;
     border-radius: 10px;
@@ -49,4 +70,10 @@ button{
 p{
     font-family:'Times New Roman', Times, serif;
     font-size:x-large;
+}
+
+label{
+    font-family:'Times New Roman', Times, serif;
+    font-size:large;
+    color:darkslategray;
 }

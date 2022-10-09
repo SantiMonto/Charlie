@@ -66,6 +66,7 @@ function App() {
               type="text"
               name="nombreUsuario"
               id="nombreUsuario"
+              placeholder="Escriba su nombre"
               required
               onChange={(e) => {
                 setNombreUsuario(e.target.value);
@@ -79,6 +80,7 @@ function App() {
               type="text"
               name="nombreEmpresa"
               id="nombreEmpresa"
+              placeholder="Escriba el nombre de su empresa"
               required
               onChange={(e) => {
                 setNombreEmpresa(e.target.value);
@@ -92,6 +94,7 @@ function App() {
               type="text"
               name="nombreContacto"
               id="nombreContacto"
+              placeholder="Escriba el nombre del contacto del cliente"
               required
               onChange={(e) => {
                 setNombreContacto(e.target.value);
@@ -105,6 +108,7 @@ function App() {
               type="text"
               name="nombreEmpresaCliente"
               id="nombreEmpresaCliente"
+              placeholder="Escriba el nombre de la empresa cliente"
               required
               onChange={(e) => {
                 setNombreEmpresaCliente(e.target.value);
@@ -118,6 +122,7 @@ function App() {
               type="number"
               name="costo"
               id="costo"
+              placeholder="Escriba el nombre del producto"
               required
               onChange={(e) => {
                 setCosto(e.target.value);
@@ -131,6 +136,7 @@ function App() {
               type="number"
               name="margen"
               id="margen"
+              placeholder="Escriba el margen del producto en numero. Ejemplo: 10"
               required
               onChange={(e) => {
                 setMargen(e.target.value);
